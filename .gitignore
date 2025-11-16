@@ -1,0 +1,20 @@
+# Archivos de Next.js / Node.js
+app/node_modules
+app/.next
+app/.env.local
+app/npm-debug.log*
+
+# Archivos de Go
+backend/.env
+backend/ryori-backend
+
+# Datos de Docker
+postgres-data/
+mongo-data/
+
+# Archivos de Subida de Imágenes
+# (¡No queremos subir las fotos de los usuarios al repositorio!)
+backend/uploads/
+
+# Archivos de Sistema Operativo (Mac)
+.DS_Store
